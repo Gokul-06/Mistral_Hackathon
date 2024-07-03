@@ -1,7 +1,7 @@
 streamlit==1.10.0
-mistralai==0.4.1  # Adjust this if a more suitable version is available
+mistralai==0.4.1
 PyPDF2==2.6.0
-Pillow>=9.1  # Updated to meet pdfplumber's requirements
+Pillow>=9.1
 pytesseract==0.3.10
 opencv-python-headless==4.5.5.64
-protobuf>=4.21.6  # Updated to meet grpcio-status's requirements
+protobuf>=3.12,<4  # Updated range to be compatible with streamlitgit add requirements.txt
